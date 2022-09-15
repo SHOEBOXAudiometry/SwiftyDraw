@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/Awalz/SwiftyDraw.git', :tag => s.version }
   s.social_media_url = 'https://twitter.com/linusgeffarth'
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '13.0'
   s.swift_version = '5.0'
 
   s.source_files = 'Source/**/*'
